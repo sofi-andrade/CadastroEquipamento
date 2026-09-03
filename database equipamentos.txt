@@ -1,0 +1,12 @@
+create database equipamentos;
+use equipamentos;
+create table tbl_equipamentos(
+  id int primary key auto_increment, 
+  nome varchar(50) not null,
+  descricao varchar(50) not null, 
+  quantidade int(10) not null,
+  marca varchar(50) not null, 
+  sala int (10) not null, 
+  estadoConservacao varchar(50) not null, 
+  patrimonio varchar(50) not null
+  );
